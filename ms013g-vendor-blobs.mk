@@ -163,6 +163,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ms013g/proprietary/vendor/lib/E08QL_libchromatix_s5k4h5yb_liveshot.so:system/vendor/lib/E08QL_libchromatix_s5k4h5yb_liveshot.so \
     vendor/samsung/ms013g/proprietary/vendor/lib/libchromatix_s5k8b1yx_vt_hd.so:system/vendor/lib/libchromatix_s5k8b1yx_vt_hd.so \
     vendor/samsung/ms013g/proprietary/vendor/lib/E08QL_libchromatix_s5k4h5yb_panorama.so:system/vendor/lib/E08QL_libchromatix_s5k4h5yb_panorama.so \
+    vendor/samsung/ms013g/proprietary/vendor/lib/E08QL_libchromatix_s5k4h5yb_snapshot.so:system/vendor/lib/E08QL_libchromatix_s5k4h5yb_snapshot.so \
     vendor/samsung/ms013g/proprietary/vendor/lib/libchromatix_s5k8b1yx_vt.so:system/vendor/lib/libchromatix_s5k8b1yx_vt.so \
     vendor/samsung/ms013g/proprietary/vendor/lib/E08QL_libchromatix_s5k4h5yb_preview.so:system/vendor/lib/E08QL_libchromatix_s5k4h5yb_preview.so \
     vendor/samsung/ms013g/proprietary/vendor/lib/libchromatix_s5k8b1yx_zslshot.so:system/vendor/lib/libchromatix_s5k8b1yx_zslshot.so \
@@ -276,6 +277,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ms013g/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/ms013g/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/samsung/ms013g/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
+    vendor/samsung/ms013g/proprietary/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
+    vendor/samsung/ms013g/proprietary/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so \
     vendor/samsung/ms013g/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/samsung/ms013g/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/samsung/ms013g/proprietary/vendor/lib/hw/sensors.msm8226.so:system/vendor/lib/hw/sensors.msm8226.so \
@@ -289,4 +292,14 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ms013g/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/samsung/ms013g/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/samsung/ms013g/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
-    vendor/samsung/ms013g/proprietary/bin/port-bridge:system/bin/port-bridge
+    vendor/samsung/ms013g/proprietary/bin/port-bridge:system/bin/port-bridge \
+    vendor/samsung/ms013g/proprietary/lib/libacdapi_clb.so:system/lib/libacdapi_clb.so \
+    vendor/samsung/ms013g/proprietary/lib/libaudiosa.so:system/lib/libaudiosa.so \
+    vendor/samsung/ms013g/proprietary/lib/libl420colourconvert.so:system/lib/libl420colourconvert.so \
+    vendor/samsung/ms013g/proprietary/lib/libmysound.so:system/lib/libmysound.so \
+    vendor/samsung/ms013g/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
+    vendor/samsung/ms013g/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
+    vendor/samsung/ms013g/proprietary/vendor/lib/libcneutils.so:system/vendor/lib/libcneutils.so \
+    vendor/samsung/ms013g/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimswrap.so \
+    vendor/samsung/ms013g/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
+    vendor/samsung/ms013g/proprietary/bin/at_distributor:system/bin/at_distributor
