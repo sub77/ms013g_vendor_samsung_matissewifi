@@ -46,6 +46,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ms013g/proprietary/vendor/lib/liboi_sbc_decoder.so:system/vendor/lib/liboi_sbc_decoder.so \
     vendor/samsung/ms013g/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/samsung/ms013g/proprietary/lib/hw/camera.msm8226.so:system/lib/hw/camera.msm8226.so \
+    vendor/samsung/ms013g/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/samsung/ms013g/proprietary/lib/libarcsoft_flawlessface.so:system/lib/libarcsoft_flawlessface.so \
     vendor/samsung/ms013g/proprietary/lib/libarcsoft_night_shot.so:system/lib/libarcsoft_night_shot.so \
     vendor/samsung/ms013g/proprietary/lib/libarcsoft_panorama_burstcapture.so:system/lib/libarcsoft_panorama_burstcapture.so \
@@ -229,7 +230,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ms013g/proprietary/vendor/lib/liblisten.so:system/vendor/lib/liblisten.so \
     vendor/samsung/ms013g/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
     vendor/samsung/ms013g/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
-    vendor/samsung/ms013g/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
+    vendor/samsung/ms013g/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
     vendor/samsung/ms013g/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
     vendor/samsung/ms013g/proprietary/vendor/lib/libmmparser.so:system/vendor/lib/libmmparser.so \
     vendor/samsung/ms013g/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
@@ -295,7 +296,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ms013g/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/samsung/ms013g/proprietary/lib/libacdapi_clb.so:system/lib/libacdapi_clb.so \
     vendor/samsung/ms013g/proprietary/lib/libaudiosa.so:system/lib/libaudiosa.so \
-    vendor/samsung/ms013g/proprietary/lib/libl420colourconvert.so:system/lib/libl420colourconvert.so \
+    vendor/samsung/ms013g/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
     vendor/samsung/ms013g/proprietary/lib/libmysound.so:system/lib/libmysound.so \
     vendor/samsung/ms013g/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
     vendor/samsung/ms013g/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
