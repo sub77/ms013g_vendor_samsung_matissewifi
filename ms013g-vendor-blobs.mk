@@ -45,7 +45,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ms013g/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/samsung/ms013g/proprietary/vendor/lib/liboi_sbc_decoder.so:system/vendor/lib/liboi_sbc_decoder.so \
     vendor/samsung/ms013g/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/samsung/ms013g/proprietary/lib/hw/camera.msm8226.so:system/lib/hw/camera.msm8226.so \
+    vendor/samsung/ms013g/proprietary/lib/hw/camera.msm8226.so:system/lib/hw/camera.vendor.msm8226.so \
     vendor/samsung/ms013g/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/samsung/ms013g/proprietary/lib/libarcsoft_flawlessface.so:system/lib/libarcsoft_flawlessface.so \
     vendor/samsung/ms013g/proprietary/lib/libarcsoft_night_shot.so:system/lib/libarcsoft_night_shot.so \
